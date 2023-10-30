@@ -20,10 +20,10 @@ const ImageView = () => {
   return (
     <div className="image-view">
       <img src={photo.url} alt={photo.title} />
-      <p className="title">{photo.title}</p>
-      <p className="description">{photo.description}</p>
-      <p className="url">{photo.url}</p>
-      <button className="carousel-btn" onClick={goBack}>Back to Carousel</button>
+      <p className="title">Title:{photo.title}</p>
+      <p className="description">Description:{photo.description}</p>
+      <p className="url">URL:{photo.url}</p>
+      <button className="carousel-btn btn btn-primary" onClick={goBack}>Back to Carousel</button>
     </div>
   );
 };

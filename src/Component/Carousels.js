@@ -25,13 +25,15 @@ function Carousels() {
   return (
     <Carousel autoplay>
       {photos?.map((photo, index) => (
-        <div key={index}>
+        <div className = "image_section" key={index}>
           <img
             src={photo.url}
             alt={photo.title}
             style={{ ...contentStyle, background: `url(${photo.url}) center/cover` }}
           />
-          <button onClick={() => viewPhoto(photo.id)} style={{marginLeft:'43rem'}}>View</button>
+          <div className = "view-btn">
+          <button className="btn btn-primary" onClick={() => viewPhoto(photo.id)} style={{marginLeft:'43rem'}}>View</button>
+          </div>
         </div>
       ))}
     </Carousel>
