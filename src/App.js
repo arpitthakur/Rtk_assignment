@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route ,useRoutes} from "react-router-dom";
+import { BrowserRouter, useRoutes} from "react-router-dom";
 
 import Carousels from "../src/Component/Carousels";
 import ImageView from "../src/Component/ImageView";

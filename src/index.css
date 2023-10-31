@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+img.photo_img {
+  margin-left: 22rem;
+}
+.heading-text {
+  text-align: center;
+  font-size: 17px;
+  color: black;
+}
+p.url {
+  text-decoration: underline;
+}
+button.carousel-btn.btn.btn-primary {
+  margin-left: 42rem;
+}
+
+.view-btn{
+  margin-top:21px;
+}
